@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "little-language-model"
+version = "1.0.0"
+description = "A small language model for educational purposes"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "torch>=2.3.0",
+    "tiktoken>=0.5.1",
+    "tensorflow>=2.18.0",
+    "pip>=25.0.1",
+    "pytest>=8.3.5",
+]
