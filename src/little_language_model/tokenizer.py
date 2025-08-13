@@ -45,5 +45,4 @@ def data_loader(file_path, batch_size=4, max_length=256, stride=128, shuffle=Tru
             drop_last=drop_last,
             num_workers=num_workers
         )
-        data_iter = iter(dataloader)
-        return next(data_iter, None)
+        return dataloader
