@@ -9,3 +9,8 @@ pip install -e .
 pip freeze > requirements.txt
 ```
 
+## Tests
+
+```bash
+pytest
+```
